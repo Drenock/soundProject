@@ -10,8 +10,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         try {
-//            Path folder = Path.of(new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath()).toURI()).getParent();
-            Path folder = Path.of("C:", "Users", "Drenock", "Desktop");
+            Path folder = Path.of(new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath()).toURI()).getParent();
 
             System.out.println(folder);
 
